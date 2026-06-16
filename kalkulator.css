@@ -1,0 +1,86 @@
+.card h2{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.bobot-info {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 25px;
+    font-size: 0.95rem;
+}
+
+label{
+    font-weight:600;
+    font-size: 0.9rem;
+    color: #475569;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:6px;
+    margin-bottom:20px;
+    border:2px solid #cbd5e1;
+    border-radius:8px;
+    transition:.3s;
+    font-size: 1rem;
+}
+
+input:focus{
+    outline:none;
+    border-color:#2563eb;
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    cursor:pointer;
+    transition:.3s;
+    margin-top: 5px;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+.error{
+    color:#ef4444;
+    font-weight:600;
+    margin-top:15px;
+    text-align: center;
+}
+
+.hasil{
+    display:none;
+    margin-top:25px;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.hasil h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.hasil h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+/* Pewarnaan Grade */
+.grade-A{ background:#22c55e; color:white; }
+.grade-B{ background:#84cc16; color:white; }
+.grade-C{ background:#eab308; color:#1e293b; }
+.grade-D{ background:#f97316; color:white; }
+.grade-E{ background:#ef4444; color:white; }
